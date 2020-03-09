@@ -9,7 +9,7 @@
 ### Install instructions
 -Start by cloning the repo to your local machine, using the `git clone` command, appended with the address of this repository(found using the green 'clone' button in the top right of this page) 
 
--Run `npm install` in the base directory of the repo, to install all required modules.
+-Type `npm install` in the command prompt, in base directory of the repo, to install all required modules.
 
--To run the tests, type `npm test`.
+-To run the tests, type `npm test` in the same directory.
 
