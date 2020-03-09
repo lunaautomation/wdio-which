@@ -1,5 +1,5 @@
 const sizes = [`55-60"`];
-import Televisions from '../../Page/Television';
+import Televisions from '../../Pages/Television';
 
 describe('Check the size filter for televisions shows the correct results', () => {
     before(() => {

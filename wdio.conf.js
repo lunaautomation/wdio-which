@@ -5,7 +5,7 @@ global.should = chai.should();
 
 exports.config = {
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/*.js'
     ],
     
     // Patterns to exclude.

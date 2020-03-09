@@ -4,7 +4,7 @@
   "description": "framework for testing using node and webdriverio",
   "main": "wdio.conf.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio config/wdio.conf.js"
+    "test": "node_modules/.bin/wdio wdio.conf.js"
   },
   "keywords": [],
   "author": "D Hitchcock",
