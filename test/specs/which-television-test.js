@@ -11,12 +11,12 @@ describe('Check the size filter for televisions shows the correct results', () =
             Televisions.selectSizeFilterOption(size);
             let amountSelected = Televisions.getSelectedSizeFilterAmounts();
             let amountShown = Televisions.getTotalResultsForSizeFilter();
-            expect(amountSelected, `The item(s) selected ${amountSelected} do not equal the amount shown in the filter total ${amountShown}`).to.equal(amountShown)
+            expect(amountSelected, `The item(s) selected ${amountSelected} do not equal the amount shown in the filter total ${amountShown}`).to.equal(amountShown);
         });
     });
 });
 
-describe('Check the Type filter for televisions shows the correct results', () => {});
+describe('Check the Type filter for televisions shows the correct results', () => { });
 
 
-describe('Check the price range for televisions shows the correct results', () => {});
+describe('Check the price range for televisions shows the correct results', () => { });

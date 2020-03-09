@@ -7,7 +7,7 @@ exports.config = {
     specs: [
         './test/specs/*.js'
     ],
-    
+
     // Patterns to exclude.
     exclude: [],
     maxInstances: 2,
@@ -22,7 +22,7 @@ exports.config = {
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
     services: ["selenium-standalone"],
-    
+
     framework: 'mocha',
     reporters: [
         'spec'
@@ -34,22 +34,11 @@ exports.config = {
             }
         }]
     ],
- 
+
     mochaOpts: {
         ui: "bdd",
         compilers: ["js:babel-register"],
         timeout: 50000
     },
-        // Gets executed before all workers get launched.
-        onPrepare() {
-
-        },
-
-        onBefore(){
-
-    
-        }
-    
-
 }
 
