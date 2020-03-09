@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Check_the_size_filter_for_televisions_shows_the_correct_results" timestamp="2020-03-09T09:13:27" time="12.238" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Check the size filter for televisions shows the correct results"/>
+      <property name="capabilities" value="chrome.80_0_3987_132.windowsnt"/>
+      <property name="file" value=".\test\specs\which-television-test.js"/>
+    </properties>
+    <testcase classname="chrome.80_0_3987_132.windowsnt.Check_the_size_filter_for_televisions_shows_the_correct_results" name="should_show_the_correct_filter_total_amount_when_selecting_55_60_Televisions" time="5.829">
+      <error message="The item(s) selected 82 do not equal the amount shown in the filter total 83: expected 82 to equal 83"/>
+      <system-err>
+        <![CDATA[
+AssertionError: The item(s) selected 82 do not equal the amount shown in the filter total 83: expected 82 to equal 83
+    at Context.<anonymous> (C:/Users/daniel.hitchcock/Documents/wdio-which/test/specs/which-television-test.js:14:140)
+    at Context.executeSync (C:\Users\daniel.hitchcock\Documents\wdio-which\node_modules\@wdio\sync\build\index.js:56:18)
+    at C:\Users\daniel.hitchcock\Documents\wdio-which\node_modules\@wdio\sync\build\index.js:82:70
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
